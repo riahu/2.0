@@ -26,21 +26,28 @@ body {
 }
 
 #center h1 {
-	font-family: 'Fondamento', sans-serif;	
 	font-size: 400%;
 	letter-spacing: -1px;
-	color: #777;
+	color: #612C8D;
 }
 
-#center h2, h3, h4, h5 {
+#center h2 {
+	color: #612C8D;
+	margin-bottom: 0px;
+}
+
+#center h1, h2 {
+	font-family: 'Fondamento', sans-serif;		
+}
+
+#center h3, h4, h5 {
 	font-family: 'Open Sans', sans-serif;	
 }
 
 hr {
-	color: #3F1373;
-	background: #3F1373; 
+	background: #F7C212; 
 	width: 70%; 
-	height: 3px;
+	height: 2px;
 }
 
 .logo {
@@ -67,7 +74,13 @@ footer {
 	line-height: 30px;
 }
 
-.contact p {
+.blurb {
+	font-size: 125%;
+	margin: 2px;
+	font-style: italic;
+}
+
+p {
 	margin: 0px;
 }
 
