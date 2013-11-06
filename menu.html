@@ -1,5 +1,6 @@
 <!doctype html>
 <html>
+
     <head>
         <meta charset="UTF-8">
         <meta name="author" content="riahu">
@@ -45,20 +46,12 @@
             <img class="logo" src="img/pizza-order.jpg" alt="Order Counter">
                 <div class="row">
                     <div class="col-md-6">
-                        <h2>Meat Pies</h2>
-                        <hr>
-                        <dl>
-                            <dt>Classic Pepperoni</dt>
-                            <dd>Pepperoni and Mozzarella on our Spicy Tomato Sauce. <em>$10/$13/$16</em></dd>
-                            <dt>The Hawaiian</dt>
-                            <dd>Canadian Bacon and Pineapple with Mozzarella on a rich Tomato Sauce. <em>$12/$14/$17</em></dd>
-                            <dt>Duck, Duck, Goose</dt>
-                            <dd>Roasted Duck and Goose with Bacon, Chestnuts on a rich Plum Sauce. <em>$15/$17/$19</em></dd>                        
-                            <dt>The Bambi</dt>
-                            <dd>Slow-cooked Venison with Red Cabbage on our famous Black Cherry Sauce.  <em>$15/$17/$19</em></dd>  
-                            <dt>The Ultimate</dt>
-                            <dd>Pepperoni, Bacon, Canadian Bacon, Chicken, Duck, Goose, and Ground Beef with Smoked Mozzarella on our Spicy Tomato Sauce. Add Venison or Elk for an extra $2! <em>$15/$19/$23</em></dd>
-                        </dl>
+                        <h2 class = "menu-data1">Pizzas:</h2>
+                        <div class = "pizza-template pizza">
+                            <p class = "name"></p>
+                            <p class = "description"></p>
+                            <p class = "price"></p>
+                        </div>
                     </div>
                     <div class="col-md-6">
                         <h2>Veggie Pies</h2>
@@ -97,7 +90,8 @@
         <footer>
             <p>Call us for delivery: 206-555-1212 || Copyright &copy; Victoria Hu 2013 || All rights reserved || <a href="https://github.com/riahu/2.0">Repository</a></p>
         </footer>
-
+    <script src="http://www.dawgpizza.com/orders/menu.js"></script>
+    <script src="js/java.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
         <script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
     </body>
