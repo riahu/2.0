@@ -2,7 +2,7 @@ $(function(){
     renderPizza(com.dawgpizza.menu.pizzas, $('.pizza-template'), $('.menu-data1'));
     renderDrink(com.dawgpizza.menu.drinks, $('.drink-template'), $('.menu-data2'));
     renderDessert(com.dawgpizza.menu.desserts, $('.dessert-template'), $('.menu-data3'));
-}
+});
 
 function renderPizza(pizza, template, menuData) {
     var clone;
