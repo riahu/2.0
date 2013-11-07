@@ -10,56 +10,53 @@
         <title>Menu</title>
     </head>
     <body>
-        <nav class="navbar navbar-default" role="navigation">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".pizza-navbar-menu">
-                    <span class="sr-only">Toggle Navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>                        
-                </button>
-                <a class="navbar-brand" href="index.html">Navigation: </a>
-            </div>
-
-            <div class="collapse navbar-collapse pizza-navbar-menu">
-                <ul class="nav navbar-nav">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li class="active"><a href="#">Menu</a></li>                    
-                    <li><a href="jobs.html">Jobs</a></li>
-                </ul>
-            </div>
-        </nav>    
         <div class="bg"></div>
         <div class="container">
+            <nav class="navbar navbar-default navbar-static-top" role="navigation">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".pizza-navbar-menu">
+                        <span class="sr-only">Toggle Navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>                        
+                    </button>
+                    <a class="navbar-brand" href="index.html">Navigation: </a>
+                </div>
+
+                <div class="collapse navbar-collapse pizza-navbar-menu">
+                    <ul class="nav navbar-nav">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li class="active"><a href="#">Menu</a></li>                    
+                        <li><a href="jobs.html">Jobs</a></li>
+                    </ul>
+                </div>
+            </nav>    
+
             <div id="center">
                 <h1>Menu</h1>
                 <hr>
+                <img class="logo" src="img/pizza-order.jpg" alt="Order Counter">
                 <h2>Pizza</h2>
                 <p>All our pizzas are made with hand-thrown thin crust, baked in real wood ovens.</p>
                 <p>Choose from one of these sizes:</p>
-                <ul class="list-unstyled">
-                    <li>Small (12")</li>
-                    <li>Medium (14")</li>
-                    <li>Large (17")</li>
-                </ul>
-                <img class="logo" src="img/pizza-order.jpg" alt="Order Counter">
-                <h2 class = "menu-data1">Pizzas:</h2>
+                <p>Small (12") | Medium (14") | Large (17")</p>               
+                <h2 class = "menu-1"></h2>
                 <hr>
-                <div class = "pizza-template pizza">
+                <div class = "pizza-t">
                     <p class = "name"></p>
                     <p class = "description"></p>
                     <p class = "price"></p>
                 </div>
-                <h2 class = "menu-data2">Drinks</h2>
+                <h2 class = "menu-2">Drinks</h2>
                 <hr>
-                <div class = "drink-template">
+                <div class = "drink-t">
                     <p class = "name"></p>
                     <p class = "price"></p>
                 </div>
-                <h2 class = "menu-data3">Dessert</h2>
+                <h2 class = "menu-3">Dessert</h2>
                 <hr>
-                <div class = "dessert-template">
+                <div class = "dessert-t">
                     <p class = "name"></p>
                     <p class = "price"></p>
                 </div>

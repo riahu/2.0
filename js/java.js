@@ -1,7 +1,7 @@
 $(function(){
-    renderPizza(com.dawgpizza.menu.pizzas, $('.pizza-template'), $('.menu-data1'));
-    renderDrink(com.dawgpizza.menu.drinks, $('.drink-template'), $('.menu-data2'));
-    renderDessert(com.dawgpizza.menu.desserts, $('.dessert-template'), $('.menu-data3'));
+    renderPizza(com.dawgpizza.menu.pizzas, $('.pizza-t'), $('.menu-1'));
+    renderDrink(com.dawgpizza.menu.drinks, $('.drink-t'), $('.menu-2'));
+    renderDessert(com.dawgpizza.menu.desserts, $('.dessert-t'), $('.menu-3'));
 });
 
 function renderPizza(pizza, template, menuData) {
@@ -16,7 +16,7 @@ function renderPizza(pizza, template, menuData) {
         clone.find('.name').html(pizza.name);
         clone.find('.description').html(pizza.description);
             //pizza.description = description of pizza
-        clone.find('.price').html('$' + pizza.prices[0] + ' | ' + '$' + pizza.prices[1] + ' | ' + pizza.prices[2])
+        clone.find('.price').html('$' + pizza.prices[0] + ' | $' +pizza.prices[1] + ' | $' + pizza.prices[2])
             //pizza.prices = array of three numbers, which are prices for small, medium, and large
             //pizza.prices[0] = price for small
             //pizza.prices[1] = price for medium
